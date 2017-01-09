@@ -1,12 +1,14 @@
+http://beoran.github.io/chipmunk/
+
 Ruby Bindings to Chipmunk Physics Version 5.2.0
 
 (C) Scott Lembcke, Beoran and John Mair (banisterfiend)
 
 IMPORTANT NOTICE:
-These are bindings for MRI Ruby 1.8.x and 1.9.x to Chipmunk version 5.2.0 
+These are bindings for MRI Ruby 1.8.x and 1.9.x to Chipmunk version 5.2.0
 
 (1) 1/10/09 Cross-Platform Gem built by John Mair (banisterfiend)
-    * Just go: gem install chipmunk  
+    * Just go: gem install chipmunk
 
 (2) Patched for 1.9.1 by Beoran (beoran@rubyforge.org)
 
@@ -25,18 +27,18 @@ CONTACT:
   beoran@rubyforge.org for these bindings
 
 ABOUT:
-  Chipmunk is a simple, lightweight and fast 2D rigid body physics library 
+  Chipmunk is a simple, lightweight and fast 2D rigid body physics library
   written in C. It's licensed under the unrestrictive, OSI approved MIT license. My aim is to give 2D developers access the same quality of physics you find in newer 3D games. I hope you enjoy using Chipmunk, and please consider donating to help make it worth our time to continue to support Chipmunk with great new features.
-  
-  These bindings are intened to as an alternative for the chipmunk-ffi bindings when performance is of the utmost importance, as it may be for games. The intent is for it to be source code compatibe with the ffi bindings. If you have any problems with these bindings, please contact the maintainer at beoran@rubyforge.org.      
-  
+
+  These bindings are intened to as an alternative for the chipmunk-ffi bindings when performance is of the utmost importance, as it may be for games. The intent is for it to be source code compatibe with the ffi bindings. If you have any problems with these bindings, please contact the maintainer at beoran@rubyforge.org.
+
 CONTRACTING:
   Howling Moon Software (Slembke's company) is available for contracting if you want to make the physics in your game really stand out. Feel free to contact them through their webpage: http://howlingmoonsoftware.com/contracting.php
 
 CHANGES SINCE 4.x:
   * Brand new Joint/Constraint API: New constraints can be added easily and are much more flexible than the old joint system.
   * Efficient Segment Queries - Like raycasting, but with line segments.
-  * Brand new collision callback API: Collision begin/separate events, API for removal of objects within callbacks, more programable control over collision handling.  
+  * Brand new collision callback API: Collision begin/separate events, API for removal of objects within callbacks, more programable control over collision handling.
 
 CHANGES SINCE RELEASE 3:
 
